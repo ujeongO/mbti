@@ -1,0 +1,65 @@
+#container {
+  width: 100%;
+  /* margin: 0 auto; */
+}
+
+/* 헤더 영역 */
+#header {
+  width: 60%;
+  margin: 0 auto;
+}
+
+#header > h1 {
+  font-size: 2.4em;
+  font-weight: 900; /* extra-bold */
+  /* text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4); */
+}
+
+/* 네비게이션 영역 */
+#nav {
+  background-color: #555;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+  margin-bottom: 5px;
+}
+
+#nav::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#wrap_nav {
+  width: 60%;
+  margin: 0 auto;
+}
+
+#wrap_nav > ul {
+  list-style: none;
+}
+
+#wrap_nav > ul:first-child {
+  float: left;
+}
+#wrap_nav > ul:last-child {
+  float: right;
+}
+
+#wrap_nav > ul > li {
+  float: left;
+}
+
+#wrap_nav > ul > li > a {
+  /* 메뉴 바의 <a> 요소는 버튼 형태로 표현 */
+  display: block;
+  padding: 1em 2em;
+
+  /* <a> 요소에 기본적으로 설정되는 스타일 속성을 초기화 */
+  color: white;
+  text-decoration: none;
+
+  text-shadow: 1px 1px 2px black;
+}
+
+#wrap_nav > ul > li > a:hover {
+  background-color: black;
+}
