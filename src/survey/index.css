@@ -1,9 +1,38 @@
-html,
-body {
-  height: 100%;
+#content {
+  width: 100%;
+  background-color: #333;
 }
 
-.page {
+#content-wrap {
+  width: 40%;
+  margin: 0 auto;
+  color: white;
+  padding: 2em 0;
+}
+
+#content-wrap > .question > h1,
+h2 {
+  text-align: center;
+}
+
+/* 버튼 부분 */
+#button {
+  display: flex;
+  justify-content: space-between;
+}
+
+#button > div {
+  border: 1px solid white;
+  width: fit-content;
+  padding: 2rem;
+}
+
+#button > div > button {
+  display: block;
+  padding: 1em 2rem;
+}
+
+/* .page {
   height: 100%;
   position: relative;
 }
@@ -21,4 +50,4 @@ body {
   font-size: 500px;
   font-weight: 900;
   text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
-}
+} */

@@ -19,7 +19,7 @@
 #nav {
   background-color: #555;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
-  margin-bottom: 5px;
+  /* margin-bottom: 5px; */
 }
 
 #nav::after {
@@ -62,4 +62,8 @@
 
 #wrap_nav > ul > li > a:hover {
   background-color: black;
+}
+
+#wrap {
+  width: 100%;
 }

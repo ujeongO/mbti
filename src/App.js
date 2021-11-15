@@ -1,5 +1,5 @@
-import './App.css';
-import SurveyPage from './survey';
+import "./App.css";
+import SurveyPage from "./survey";
 
 function App() {
   return (
@@ -11,23 +11,35 @@ function App() {
       <nav id="nav">
         <div id="wrap_nav">
           <ul>
-            <li><a href="#home">홈</a></li>
-            <li><a href="#tour">여행지</a></li>
-            <li><a href="#even">이벤트</a></li>
-            <li><a href="#mypage">마이페이지</a></li>
+            <li>
+              <a href="#home">홈</a>
+            </li>
+            <li>
+              <a href="#tour">여행지</a>
+            </li>
+            <li>
+              <a href="#even">이벤트</a>
+            </li>
+            <li>
+              <a href="#mypage">마이페이지</a>
+            </li>
           </ul>
           <ul>
-            <li><a href="#signin">Sign in</a></li>
-            <li><a href="signup">Sign up</a></li>
+            <li>
+              <a href="#signin">Sign in</a>
+            </li>
+            <li>
+              <a href="signup">Sign up</a>
+            </li>
           </ul>
         </div>
       </nav>
 
       <div id="wrap">
-        <article id="content">
-          <SurveyPage/>
-        </article>
+        <SurveyPage />
       </div>
+
+      <footer id="footer"></footer>
     </div>
   );
 }
